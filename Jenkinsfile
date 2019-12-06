@@ -8,15 +8,10 @@ pipeline {
                 sh 'node --version'
             }
         }
-        stage('Build snap docker container') {
+        stage('Test') {
           steps {
-            checkout scm
-            sh 'pwd; ls -l'
-            sh 'docker ps'
-            echo 'Build the snap docker image'
-            sh 'docker build -t snap .'
-            echo 'Checking the snap docker image'
-            sh 'docker images | grep -i snap'
+
+            sh 'make snap_with_junit_xml test=telemarketer'
           }
         }
         
