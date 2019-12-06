@@ -14,7 +14,7 @@ pipeline {
             sh 'pwd; ls -l'
             sh 'docker ps'
             echo 'Build the snap docker image'
-            sh 'make build'
+            sh 'docker build -t snap .'
             echo 'Checking the snap docker image'
             sh 'docker images | grep -i snap'
           }
