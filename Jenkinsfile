@@ -8,10 +8,6 @@ pipeline {
                 sh 'node --version'
             }
         }
-        stage ('Install Docker Compose') {
-            echo 'Installing docker-compose'
-            sh 'sudo pip install docker-compose'
-        }
         stage('Build snap docker container') {
             checkout scm
             sh 'pwd; ls -l'
