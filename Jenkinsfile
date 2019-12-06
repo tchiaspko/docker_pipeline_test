@@ -9,6 +9,7 @@ pipeline {
             }
         }
         stage('Build snap docker container') {
+          steps {
             checkout scm
             sh 'pwd; ls -l'
             sh 'docker ps'
@@ -16,9 +17,9 @@ pipeline {
             sh 'make build'
             echo 'Checking the snap docker image'
             sh 'docker images | grep -i snap'
-
+          }
         }
         
-        
+       
     }
 }
