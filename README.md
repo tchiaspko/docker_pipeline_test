@@ -26,3 +26,4 @@ test ghprb 3 -3
 test ghprb 3 -4
 test ghprb 3 -5
 test ghprb 3 -6
+test ghprb 3 -7
