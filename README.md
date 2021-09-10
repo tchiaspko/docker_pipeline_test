@@ -21,4 +21,4 @@ test webhook
 
 test ghprb 1
 test ghprb 2
-test ghprb 3
+test ghprb 3 -2
