@@ -49,3 +49,4 @@ test ghprb 3 -27
 test ghprb 3 -28
 test ghprb 3 -29
 test ghprb 3 -30
+test ghprb 3 -31
