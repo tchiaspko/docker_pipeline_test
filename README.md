@@ -61,4 +61,5 @@ test ghprb 3 -39
 test ghprb 3 -40
 test ghprb 3 -41
 test ghprb 3 -42
+test ghprb 3 -43
 :
