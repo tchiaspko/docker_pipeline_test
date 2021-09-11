@@ -21,3 +21,56 @@ test webhook
 
 test ghprb 1
 test ghprb 2
+test ghprb 3 -2
+test ghprb 3 -3
+test ghprb 3 -4
+test ghprb 3 -5
+test ghprb 3 -6
+test ghprb 3 -7
+test ghprb 3 -8
+test ghprb 3 -9
+test ghprb 3 -11
+test ghprb 3 -12
+test ghprb 3 -13
+test ghprb 3 -14
+test ghprb 3 -15
+test ghprb 3 -16
+test ghprb 3 -17
+test ghprb 3 -18
+test ghprb 3 -19
+test ghprb 3 -20
+test ghprb 3 -21
+test ghprb 3 -22
+test ghprb 3 -23
+test ghprb 3 -24
+test ghprb 3 -25
+test ghprb 3 -26
+test ghprb 3 -27
+test ghprb 3 -28
+test ghprb 3 -29
+test ghprb 3 -30
+test ghprb 3 -31
+test ghprb 3 -32
+test ghprb 3 -33
+test ghprb 3 -34
+test ghprb 3 -35
+test ghprb 3 -36:w!
+test ghprb 3 -37
+test ghprb 3 -38
+test ghprb 3 -39
+test ghprb 3 -40
+test ghprb 3 -41
+test ghprb 3 -42
+test ghprb 3 -43
+test ghprb 3 -44
+test ghprb 3 -45
+test ghprb 3 -46
+test ghprb 3 -47
+test ghprb 3 -48
+test ghprb 3 -49
+test ghprb 3 -50
+test ghprb 3 -51
+test ghprb 3 -52
+test ghprb 3 -53
+test ghprb 3 -54
+:
