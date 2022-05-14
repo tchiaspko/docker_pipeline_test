@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
           steps {
 
-            sh 'make snap_with_junit_xml test=telemarketer'
+            sh 'echo "hello, world"'
           }
         }
         
