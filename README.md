@@ -23,3 +23,4 @@ test ghprb 1
 test ghprb 2
 
 test github-webhook
+switch from json to form
