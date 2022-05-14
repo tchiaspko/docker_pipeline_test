@@ -21,3 +21,5 @@ test webhook
 
 test ghprb 1
 test ghprb 2
+
+test github-webhook
