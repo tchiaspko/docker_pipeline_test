@@ -1,11 +1,13 @@
-FROM node:10-alpine
+#FROM node:10-alpine
+FROM node:18.18-alpine
 
 # Check the content of the container with
 #   docker-compose run snap apk info -vv
 # This is useful to check of the content of the container has changed
 
 # v3.10 Installs Chromium 73
-ENV ALPINE_REPO_TAG="v3.10" 
+# ENV ALPINE_REPO_TAG="v3.10" 
+ ENV ALPINE_REPO_TAG="v3.18" 
 
 RUN apk update && apk upgrade && \
     echo @${ALPINE_REPO_TAG} http://nl.alpinelinux.org/alpine/${ALPINE_REPO_TAG}/community >> /etc/apk/repositories && \
